@@ -7,8 +7,6 @@
     "dev": "nodemon src/index"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^1.6.0",
     "coinkey": "^3.0.0",
