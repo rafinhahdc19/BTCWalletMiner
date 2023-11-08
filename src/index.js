@@ -37,7 +37,7 @@ async function getNewWallet(numeroDeCarteiras){
         
         if (pvk_pbk_pair) {
             const { pvk, pbk } = pvk_pbk_pair;
-            walletsAndBalance.push({ balance : balance, pvk, pbk });
+            walletsAndBalance.push({ balance, pvk, pbk });
         }
     }
     
