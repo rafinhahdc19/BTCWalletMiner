@@ -1,15 +1,26 @@
 {
-  "name": "wallte-miner",
+  "name": "bitcoin-wallet-miner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.0",
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "^6.1.5",
     "coinkey": "^3.0.0",
-    "nodemon": "^3.0.1"
+    "ecpair": "^2.1.0",
+    "nodemon": "^3.0.1",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "bin": "src/index.js",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ]
   }
 }
